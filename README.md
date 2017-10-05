@@ -17,14 +17,23 @@
   - Verificación
   ```javascript variable (word) donde se almacena palabra;
  arreglo arrayNumbers, finalWord;
- if (Expresion regular que solo permite numeros [0-9]) {
+ Si (Expresion regular que solo permite numeros [0-9] retorna True) {
      ciclo for (empezando del ultimo indice de la tarjeta ; hasta el indice 0; indice--) {
         almacenar dato impar en arrayNumbers[indice] (sin modificar)
         variable del for disminuye en 1 (indice--);
         almacenar dato par multiplicado por 2 en arrayNumbers[indice];
-        if (En caso que multiplicacion sea mayor a 9 se suman los digitos ej: 10 = 1 + 0 = 1) {
-          Calcular la suma de los digits y sobrescribr en la misma posicion;
+        if (En caso que arrayNumbers[indice] sea mayor a 9 se suman los digitos ej: 10 = 1 + 0 = 1) {
+          Calcular la suma de los digitos y sobrescribr en la misma posicion;
      }
+  }
+  for (indice 0 hasta el ultimo dato del arreglo) {
+     Suma de los datos contenidos en el arreglo arrayNumbers[indice]
+  }
+  Si el residuo de suma total (sumTotal) es 0 {
+    funcion retorna mensaje "Tu número Tarjeta es VALIDO" 
+   }
+  De lo contrario {
+    funcion retorna mensaje alert() "Tu número de Tarjeta INVALIDO"
   }
   ```
 + El programa devuelve mediante un _alert() el resultado. 
