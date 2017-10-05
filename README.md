@@ -13,7 +13,7 @@
   - Si el usuario digita un valor fuera del rango y condiciones establecidas en el if, retorna un alert() que le avisa que es una opción inválida y le muestra nuevamente la ventana para escribir la opción.
   - Si digita un valor correcto (solo números) se realiza el proceso de verificacion
 
-+Proceso
++ Proceso
   - Verificación
   ```javascript variable (word) donde se almacena palabra;
  arreglo arrayNumbers, finalWord;
@@ -26,15 +26,16 @@
           Calcular la suma de los digitos y sobrescribr en la misma posicion;
      }
   }
-  for (indice 0 hasta el ultimo dato del arreglo) {
+  Proceso de suma:
+  ciclo for (indice 0 hasta el ultimo dato del arreglo) {
      Suma de los datos contenidos en el arreglo arrayNumbers[indice]
   }
   Si el residuo de suma total (sumTotal) es 0 {
     funcion retorna mensaje "Tu número Tarjeta es VALIDO" 
    }
   De lo contrario {
-    funcion retorna mensaje alert() "Tu número de Tarjeta INVALIDO"
+    funcion retorna mensaje "Tu número de Tarjeta INVALIDO"
   }
   ```
-+ El programa devuelve mediante un _alert() el resultado. 
++ El programa devuelve mediante un _alert()_ el resultado. 
 + Fin
